@@ -1,0 +1,19 @@
+GET http://localhost:8000/products HTTP/1.1
+
+POST http://localhost:8000/products HTTP/1.1
+
+{
+    "name": "product 4",
+    "price": 3000
+}
+
+
+PUT http://localhost:8000/products/7 HTTP/1.1
+
+{
+    "name": "new product1",
+    "price": 500
+}
+
+
+DELETE http://localhost:8000/products/8 HTTP/1.1
